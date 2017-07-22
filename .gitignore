@@ -1,0 +1,5 @@
+tensorflow/include/tensorflow/c/*.h
+tensorflow/include/tensorflow/c/LICENSE
+tensorflow/lib/*.so
+tensorflow/lib/*.a
+node_modules/

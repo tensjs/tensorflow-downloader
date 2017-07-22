@@ -1,0 +1,27 @@
+{
+  "name": "tensorflow-downloader",
+  "version": "1.0.4",
+  "description": "download tensorflow lib by your platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node download.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yorkie/tensorflow-downloader.git"
+  },
+  "keywords": [
+    "tensorflow",
+    "downloader"
+  ],
+  "author": "Yazhong Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yorkie/tensorflow-downloader/issues"
+  },
+  "homepage": "https://github.com/yorkie/tensorflow-downloader#readme",
+  "dependencies": {
+    "tar": "^3.1.5"
+  }
+}
